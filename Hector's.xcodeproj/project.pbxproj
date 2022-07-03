@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA6316072871ACBE003C7C75 /* Hector_sApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316062871ACBE003C7C75 /* Hector_sApp.swift */; };
+		DA6316092871ACBE003C7C75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316082871ACBE003C7C75 /* ContentView.swift */; };
+		DA63160B2871ACBF003C7C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA63160A2871ACBF003C7C75 /* Assets.xcassets */; };
+		DA63160E2871ACBF003C7C75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA63160D2871ACBF003C7C75 /* Preview Assets.xcassets */; };
+		DA6316182871ACBF003C7C75 /* Hector_sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316172871ACBF003C7C75 /* Hector_sTests.swift */; };
+		DA6316222871ACBF003C7C75 /* Hector_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316212871ACBF003C7C75 /* Hector_sUITests.swift */; };
+		DA6316242871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316232871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA6316142871ACBF003C7C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA6315FB2871ACBE003C7C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6316022871ACBE003C7C75;
+			remoteInfo = "Hector's";
+		};
+		DA63161E2871ACBF003C7C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA6315FB2871ACBE003C7C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6316022871ACBE003C7C75;
+			remoteInfo = "Hector's";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA6316032871ACBE003C7C75 /* Hector's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hector's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6316062871ACBE003C7C75 /* Hector_sApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hector_sApp.swift; sourceTree = "<group>"; };
+		DA6316082871ACBE003C7C75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA63160A2871ACBF003C7C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA63160D2871ACBF003C7C75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA6316132871ACBF003C7C75 /* Hector'sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hector'sTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6316172871ACBF003C7C75 /* Hector_sTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hector_sTests.swift; sourceTree = "<group>"; };
+		DA63161D2871ACBF003C7C75 /* Hector'sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hector'sUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6316212871ACBF003C7C75 /* Hector_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hector_sUITests.swift; sourceTree = "<group>"; };
+		DA6316232871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hector_sUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA6316002871ACBE003C7C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6316102871ACBF003C7C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA63161A2871ACBF003C7C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6315FA2871ACBE003C7C75 = {
+			isa = PBXGroup;
+			children = (
+				DA6316052871ACBE003C7C75 /* Hector's */,
+				DA6316162871ACBF003C7C75 /* Hector'sTests */,
+				DA6316202871ACBF003C7C75 /* Hector'sUITests */,
+				DA6316042871ACBE003C7C75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA6316042871ACBE003C7C75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA6316032871ACBE003C7C75 /* Hector's.app */,
+				DA6316132871ACBF003C7C75 /* Hector'sTests.xctest */,
+				DA63161D2871ACBF003C7C75 /* Hector'sUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6316052871ACBE003C7C75 /* Hector's */ = {
+			isa = PBXGroup;
+			children = (
+				DA6316062871ACBE003C7C75 /* Hector_sApp.swift */,
+				DA6316082871ACBE003C7C75 /* ContentView.swift */,
+				DA63160A2871ACBF003C7C75 /* Assets.xcassets */,
+				DA63160C2871ACBF003C7C75 /* Preview Content */,
+			);
+			path = "Hector's";
+			sourceTree = "<group>";
+		};
+		DA63160C2871ACBF003C7C75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA63160D2871ACBF003C7C75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA6316162871ACBF003C7C75 /* Hector'sTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6316172871ACBF003C7C75 /* Hector_sTests.swift */,
+			);
+			path = "Hector'sTests";
+			sourceTree = "<group>";
+		};
+		DA6316202871ACBF003C7C75 /* Hector'sUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6316212871ACBF003C7C75 /* Hector_sUITests.swift */,
+				DA6316232871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift */,
+			);
+			path = "Hector'sUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6316022871ACBE003C7C75 /* Hector's */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6316272871ACBF003C7C75 /* Build configuration list for PBXNativeTarget "Hector's" */;
+			buildPhases = (
+				DA6315FF2871ACBE003C7C75 /* Sources */,
+				DA6316002871ACBE003C7C75 /* Frameworks */,
+				DA6316012871ACBE003C7C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hector's";
+			productName = "Hector's";
+			productReference = DA6316032871ACBE003C7C75 /* Hector's.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA6316122871ACBF003C7C75 /* Hector'sTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA63162A2871ACBF003C7C75 /* Build configuration list for PBXNativeTarget "Hector'sTests" */;
+			buildPhases = (
+				DA63160F2871ACBF003C7C75 /* Sources */,
+				DA6316102871ACBF003C7C75 /* Frameworks */,
+				DA6316112871ACBF003C7C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6316152871ACBF003C7C75 /* PBXTargetDependency */,
+			);
+			name = "Hector'sTests";
+			productName = "Hector'sTests";
+			productReference = DA6316132871ACBF003C7C75 /* Hector'sTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA63161C2871ACBF003C7C75 /* Hector'sUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA63162D2871ACBF003C7C75 /* Build configuration list for PBXNativeTarget "Hector'sUITests" */;
+			buildPhases = (
+				DA6316192871ACBF003C7C75 /* Sources */,
+				DA63161A2871ACBF003C7C75 /* Frameworks */,
+				DA63161B2871ACBF003C7C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA63161F2871ACBF003C7C75 /* PBXTargetDependency */,
+			);
+			name = "Hector'sUITests";
+			productName = "Hector'sUITests";
+			productReference = DA63161D2871ACBF003C7C75 /* Hector'sUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA6315FB2871ACBE003C7C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DA6316022871ACBE003C7C75 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DA6316122871ACBF003C7C75 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DA6316022871ACBE003C7C75;
+					};
+					DA63161C2871ACBF003C7C75 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DA6316022871ACBE003C7C75;
+					};
+				};
+			};
+			buildConfigurationList = DA6315FE2871ACBE003C7C75 /* Build configuration list for PBXProject "Hector's" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA6315FA2871ACBE003C7C75;
+			productRefGroup = DA6316042871ACBE003C7C75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6316022871ACBE003C7C75 /* Hector's */,
+				DA6316122871ACBF003C7C75 /* Hector'sTests */,
+				DA63161C2871ACBF003C7C75 /* Hector'sUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA6316012871ACBE003C7C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA63160E2871ACBF003C7C75 /* Preview Assets.xcassets in Resources */,
+				DA63160B2871ACBF003C7C75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6316112871ACBF003C7C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA63161B2871ACBF003C7C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA6315FF2871ACBE003C7C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6316092871ACBE003C7C75 /* ContentView.swift in Sources */,
+				DA6316072871ACBE003C7C75 /* Hector_sApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA63160F2871ACBF003C7C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6316182871ACBF003C7C75 /* Hector_sTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6316192871ACBF003C7C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6316242871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift in Sources */,
+				DA6316222871ACBF003C7C75 /* Hector_sUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA6316152871ACBF003C7C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6316022871ACBE003C7C75 /* Hector's */;
+			targetProxy = DA6316142871ACBF003C7C75 /* PBXContainerItemProxy */;
+		};
+		DA63161F2871ACBF003C7C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6316022871ACBE003C7C75 /* Hector's */;
+			targetProxy = DA63161E2871ACBF003C7C75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA6316252871ACBF003C7C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA6316262871ACBF003C7C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA6316282871ACBF003C7C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hector's/Preview Content\"";
+				DEVELOPMENT_TEAM = 88JDJAZFDJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VitaleIndustries.Hector-s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA6316292871ACBF003C7C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hector's/Preview Content\"";
+				DEVELOPMENT_TEAM = 88JDJAZFDJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VitaleIndustries.Hector-s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA63162B2871ACBF003C7C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88JDJAZFDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VitaleIndustries.Hector-sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hector's.app/Hector's";
+			};
+			name = Debug;
+		};
+		DA63162C2871ACBF003C7C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88JDJAZFDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VitaleIndustries.Hector-sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hector's.app/Hector's";
+			};
+			name = Release;
+		};
+		DA63162E2871ACBF003C7C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88JDJAZFDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VitaleIndustries.Hector-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hector's";
+			};
+			name = Debug;
+		};
+		DA63162F2871ACBF003C7C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88JDJAZFDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VitaleIndustries.Hector-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hector's";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6315FE2871ACBE003C7C75 /* Build configuration list for PBXProject "Hector's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6316252871ACBF003C7C75 /* Debug */,
+				DA6316262871ACBF003C7C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6316272871ACBF003C7C75 /* Build configuration list for PBXNativeTarget "Hector's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6316282871ACBF003C7C75 /* Debug */,
+				DA6316292871ACBF003C7C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA63162A2871ACBF003C7C75 /* Build configuration list for PBXNativeTarget "Hector'sTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA63162B2871ACBF003C7C75 /* Debug */,
+				DA63162C2871ACBF003C7C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA63162D2871ACBF003C7C75 /* Build configuration list for PBXNativeTarget "Hector'sUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA63162E2871ACBF003C7C75 /* Debug */,
+				DA63162F2871ACBF003C7C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA6315FB2871ACBE003C7C75 /* Project object */;
+}
