@@ -11,9 +11,6 @@
 		DA6316092871ACBE003C7C75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316082871ACBE003C7C75 /* ContentView.swift */; };
 		DA63160B2871ACBF003C7C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA63160A2871ACBF003C7C75 /* Assets.xcassets */; };
 		DA63160E2871ACBF003C7C75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA63160D2871ACBF003C7C75 /* Preview Assets.xcassets */; };
-		DA6316182871ACBF003C7C75 /* Hector_sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316172871ACBF003C7C75 /* Hector_sTests.swift */; };
-		DA6316222871ACBF003C7C75 /* Hector_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316212871ACBF003C7C75 /* Hector_sUITests.swift */; };
-		DA6316242871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6316232871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		DA63160A2871ACBF003C7C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA63160D2871ACBF003C7C75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA6316132871ACBF003C7C75 /* Hector'sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hector'sTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6316172871ACBF003C7C75 /* Hector_sTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hector_sTests.swift; sourceTree = "<group>"; };
 		DA63161D2871ACBF003C7C75 /* Hector'sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hector'sUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6316212871ACBF003C7C75 /* Hector_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hector_sUITests.swift; sourceTree = "<group>"; };
-		DA6316232871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hector_sUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				DA6316052871ACBE003C7C75 /* Hector's */,
-				DA6316162871ACBF003C7C75 /* Hector'sTests */,
-				DA6316202871ACBF003C7C75 /* Hector'sUITests */,
 				DA6316042871ACBE003C7C75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				DA63160D2871ACBF003C7C75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DA6316162871ACBF003C7C75 /* Hector'sTests */ = {
-			isa = PBXGroup;
-			children = (
-				DA6316172871ACBF003C7C75 /* Hector_sTests.swift */,
-			);
-			path = "Hector'sTests";
-			sourceTree = "<group>";
-		};
-		DA6316202871ACBF003C7C75 /* Hector'sUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DA6316212871ACBF003C7C75 /* Hector_sUITests.swift */,
-				DA6316232871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift */,
-			);
-			path = "Hector'sUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6316182871ACBF003C7C75 /* Hector_sTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6316242871ACBF003C7C75 /* Hector_sUITestsLaunchTests.swift in Sources */,
-				DA6316222871ACBF003C7C75 /* Hector_sUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
